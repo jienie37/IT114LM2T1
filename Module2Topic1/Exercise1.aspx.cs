@@ -13,5 +13,10 @@ namespace Module1Exercise1
         {
 
         }
+        protected void buttonplayMusic(object sender, EventArgs e)
+        {
+            string playSong = "Now Playing - Turtle";
+            SongPlaying.InnerHtml = playSong;
+        }
     }
 }
